@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="ISO-8859-1">
+	<title>RESUME FORM</title>
+	</head>
+	<h2>Resumeeee Form</h2>
+		<body>
+			<form  action ="ResumeBuilder" method = "get">
+			<table>
+				<tr>
+				<td>First Name:</td>
+				<td> <input type = "text" name = "firstname"/></td>
+				</tr>
+				<tr>
+				<td>Last Name:</td>
+				<td> <input type = "text" name = "lastname"/></td>
+				</tr>
+				<tr>
+					<td>Gender:</td>
+					<td> <input type= "radio" name= "gender" value="male" checked>Male
+						<input type= "radio" name= "gender" value="female" checked>Female<br>
+					</td>
+				</tr>
+				<tr>
+					<td>Highest Qualification: </td>
+					<td><select name ="highQual">
+											<option value ="BTech">Btech</option>
+											<option value ="BSc">BSc</option>
+											<option value ="Mtech">Mtech</option>
+											<option value ="Msc">Msc</option>
+										</select><br></td>
+				</tr>
+				<tr>
+					<td>DOB:</td>
+					<td> <input type = "date" name = "bday"/><br>
+					</td>
+				</tr>
+				<tr>
+					<td>Hobbies:</td>
+					<td> <select multiple name="hobby" >
+								<option value ="painting">painting</option>
+								<option value ="Dancing">Dancing</option>
+								<option value ="Acting">Acting</option>
+								<option value ="Playing">Playing</option>
+								<option value ="coding">coding</option>
+							</select><br></td>
+				</tr>
+				
+				<tr>
+					<td>Photo:</td>
+					<td><input type="file" name="pic" accept="image/*"><br></td>
+				</tr>
+				<tr>
+					<td>Address:</td>
+					<td> <textarea name="address" rows="4" cols="20">Enterr text here...</textarea><br></td>
+				</tr>
+				<tr>
+					<td> Skills:</td>
+					<td> <input type = "checkbox" name = "skills" value ="c">C
+						<input type = "checkbox" name = "skills" value ="c++">C++
+						<input type = "checkbox" name = "skills" value ="java">Java
+						<input type = "checkbox" name = "skills" value ="dot net">dot Net<br>
+					</td>
+				</tr>
+				<tr>
+					<td>Email:</td>
+					<td> <input type="email" name="email"><br></td>
+				</tr>
+				<tr>
+					<td>Web-site:</td>
+					<td> <input type = "text" name = "website"/><br></td>
+				</tr>
+				<tr>
+					<td>Contact no. : </td>
+					<td><input type="tel" name ="contact"><br></td>
+				</tr>
+				<tr>
+					<td>Description: </td>
+					<td><textarea name="description" rows="4" cols="20">Enter text here...</textarea><br></td>
+				</tr>
+				<tr></tr>
+				<tr>
+					<td><input type="submit" value ="submit"></td>
+					<td><input type="reset"></td>
+				</tr>
+			</table>
+			</form>
+		</body>
+</html>
